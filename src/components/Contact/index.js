@@ -122,13 +122,14 @@ const ContactButton = styled.input`
 
 const Contact = () => {
 
-  return (
+   return (
     <Container>
       <Wrapper>
         <Title>Contact</Title>
         <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
-        <ContactForm action='https://getform.io/f/70c5b733-ba7b-4576-bd14-2c2301e13e52' method='POST'>
+        <ContactForm action='https://api.web3forms.com/submit' method='POST'>
           <ContactTitle>Email Me 🚀</ContactTitle>
+          <ContactInput type="hidden" name="access_key" value="0d538f00-da50-4050-81de-a8a9e05a7eeb" />
           <ContactInput placeholder="Your Email" name="email" />
           <ContactInput placeholder="Your Name" name="name" />
           <ContactInput placeholder="Subject" name="subject" />
