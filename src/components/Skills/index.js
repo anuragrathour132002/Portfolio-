@@ -9,6 +9,7 @@ justify-content: center;
 position: relative;
 z-index: 1;
 align-items: center;
+
 `
 
 const Wrapper = styled.div`
@@ -54,6 +55,7 @@ const SkillsContainer = styled.div`
   margin-top: 30px;
   gap: 30px;
   justify-content: center;
+   
 `
 
 const Skill = styled.div`
@@ -64,6 +66,11 @@ const Skill = styled.div`
   box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
   border-radius: 16px;
   padding: 18px 36px;
+  &:hover {
+        transform: scale(1.05);
+    transition: all 0.4s ease-in-out;
+    }
+  
   @media (max-width: 768px) {
     max-width: 400px;
     padding: 10px 36px;
@@ -103,6 +110,10 @@ const SkillItem = styled.div`
   align-items: center;
   justify-content: center;
   gap: 8px;
+  &:hover {
+        transform: scale(1.05);
+    transition: all 0.4s ease-in-out;
+    }
   @media (max-width: 768px) {
     font-size: 14px;
     padding: 8px 12px;
@@ -133,7 +144,7 @@ const Skills = () => {
               <SkillList>
                 {skill.skills.map((item) => (
                   <SkillItem>
-                    <SkillImage src={item.image}/>
+                    <SkillImage src={item.image} />
                     {item.name}
                   </SkillItem>
                 ))}

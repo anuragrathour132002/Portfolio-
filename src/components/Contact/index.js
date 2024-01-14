@@ -127,7 +127,7 @@ const Contact = () => {
       <Wrapper>
         <Title>Contact</Title>
         <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
-        <ContactForm action='https://getform.io/f/c5f4a842-5745-44f4-9ce7-e345417e1104' method='POST'>
+        <ContactForm action='https://getform.io/f/70c5b733-ba7b-4576-bd14-2c2301e13e52' method='POST'>
           <ContactTitle>Email Me 🚀</ContactTitle>
           <ContactInput placeholder="Your Email" name="email" />
           <ContactInput placeholder="Your Name" name="name" />
