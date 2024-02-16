@@ -8,7 +8,7 @@ export const Bio = {
     'https://drive.google.com/file/d/10GWQ7XiyANM_K6GIFnRKIzbhcr8MCnt7/view?usp=sharing',
   linkedin: 'https://www.linkedin.com/in/anurag-rathour07/',
   twitter: 'https://twitter.com/AnuragR46498191',
-  insta: 'https://www.instagram.com/its_anurag.rathour._/',
+  insta: 'https://www.instagram.com/anuragrathour.in?igsh=MWZ3NHV6NG8zbDRkcg==',
 };
 
 export const skills = [
