@@ -4,8 +4,7 @@ export const Bio = {
   description:
     'I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.',
   github: 'https://github.com/anuragrathour132002',
-  resume:
-    'https://drive.google.com/file/d/10GWQ7XiyANM_K6GIFnRKIzbhcr8MCnt7/view?usp=sharing',
+  resume: 'https://drive.google.com/file/d/12pM1mRIaFnHK2MsUdWdG6fgjj6q90iHV/view?usp=sharing',
   linkedin: 'https://www.linkedin.com/in/anurag-rathour07/',
   twitter: 'https://twitter.com/AnuragR46498191',
   insta: 'https://www.instagram.com/anuragrathour.in?igsh=MWZ3NHV6NG8zbDRkcg%3D%3D',
@@ -52,7 +51,7 @@ export const skills = [
           'https://seeklogo.com/images/T/typescript-logo-B29A3F462D-seeklogo.com.png',
       },
       {
-        name: 'Tailwind',
+        name: 'Tailwind CSS',
         image:
           'https://seeklogo.com/images/T/tailwind-css-logo-5AD4175897-seeklogo.com.png',
       },
@@ -116,11 +115,11 @@ export const skills = [
     title: 'Quality Assurance',
     skills: [
 
-      {
-        name: 'Database Testing',
-        image:
-          'https://w1.pngwing.com/pngs/438/470/png-transparent-database-logo-software-testing-computer-software-backup-computer-servers-computer-programming-software-engineering-system.png',
-      },
+      // {
+      //   name: 'Database Testing',
+      //   image:
+      //     'https://w1.pngwing.com/pngs/438/470/png-transparent-database-logo-software-testing-computer-software-backup-computer-servers-computer-programming-software-engineering-system.png',
+      // },
 
       {
         name: 'API Testing',
@@ -200,35 +199,30 @@ export const skills = [
 ];
 
 export const experiences = [
+
   {
     id: 0,
+    img: 'https://i.ibb.co/Xs7JR8N/vdoit.png',
+    role: 'Frontend Developer',
+    company: 'VDOIT Technologies Ltd.',
+    date: 'Feb. 2024 - Present',
+    desc: "Successfully collaborated on frontend projects using React.js and Tailwind CSS, demonstrating strong skills in building responsive and visually appealing user interfaces.  Utilized React.JS to enhance frontend functionalities, showcasing adaptability and proficiency in integrating backend technologies into frontend development workflows.  Played a key role in API testing and integration processes, ensuring seamless communication between frontend and backend systems to deliver robust and efficient applications",
+    skills: ['React.js', 'Tailwind CSS', 'Material UI', 'Context API'],
+    doc: '',
+  },
+
+  {
+    id: 1,
     img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/GeeksforGeeks.svg/1024px-GeeksforGeeks.svg.png',
     role: 'Technical Content Writer',
     company: 'GeeksForGeeks',
     date: 'July 2023 - Aug 2023',
-    desc: 'Authored and published more than three articles on System design GFG Topics, a prominent online learning platform, providing in-depth insights and knowledge on various topics related to System design Conducted thorough research, analyzed technical concepts, and crafted well- structured articles, ensuring accuracy and relevance of information to cater to the target audience of aspiring system designers --  |  Design Facebook’s live update of comments on posts  |  Design a system that counts the number of clicks on YouTube videos | How would you design Amazon.com’s database  ',
+    desc: 'Authored and published more than three articles on System design GFG Topics, a prominent online learning platform, providing in-depth insights and knowledge on various topics related to System design Conducted thorough research, analyzed technical concepts, and crafted well- structured articles, ensuring accuracy and relevance of information to cater to the target audience of aspiring system designers ',
 
     skills: ['System Design', 'Content Writing', 'Webtechnology', 'Blockchain'],
     doc: '',
   },
-  // 
-  //   id: 1,
-  //   img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOgDoKlLUPz9E02PNChCPbENmcuKRqTuxbCCehyA49S5Y1XIaImidque7nqN_WlMSOSP0&usqp=CAU',
-  //   role: 'Frontend Developer Intern',
-  //   company: 'Hexode',
-  //   date: 'Apr 2021 - Oct 2021',
-  //   desc: 'I skillfully integrated various components of the mobile application with the backend, employing API integration for seamless connectivity. Thorough end-to-end testing was performed to ensure a polished and error-free mobile application. Additionally, I enhanced user experience by effectively implementing the React Navigation Library, enabling user-friendly and fluid navigation within the application..',
-  //   skills: [
-  //     'HTML',
-  //     'CSS',
-  //     'JavaScript',
-  //     'ReactJs',
-  //     'React Native',
-  //     'Postman',
-  //     'Android Studio',
-  //   ],
-  //   doc: '',
-  // },
+
 ];
 
 
