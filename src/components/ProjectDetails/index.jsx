@@ -212,7 +212,7 @@ const index = ({ openModal, setOpenModal }) => {
                             <Members>
                                 {project?.member.map((member) => (
                                     <Member>
-                                        <MemberImage src={member.img} />
+                                        <MemberImage src={member.image} />
                                         <MemberName>{member.name}</MemberName>
                                         <a href={member.github} target="new" style={{ textDecoration: 'none', color: 'inherit' }}>
                                             <GitHub />

@@ -1,11 +1,11 @@
 export const Bio = {
   name: 'Anurag Rathour',
-  roles: ['Full Stack Developer', 'Frontend Developer', 'Programmer', 'Software Tester'],
+  roles: ['Full Stack Developer', 'Frontend Developer', 'Backend Developer', 'Programmer', 'Software Tester'],
   description:
     'I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.',
   github: 'https://github.com/anuragrathour132002',
   resume:
-    'https://drive.google.com/file/d/1CvdFOL8315qhog1JZPW3qZE_dy_GzKqW/view?usp=sharing',
+    'https://drive.google.com/file/d/10GWQ7XiyANM_K6GIFnRKIzbhcr8MCnt7/view?usp=sharing',
   linkedin: 'https://www.linkedin.com/in/anurag-rathour07/',
   twitter: 'https://twitter.com/AnuragR46498191',
   insta: 'https://www.instagram.com/its_anurag.rathour._/',
@@ -40,11 +40,6 @@ export const skills = [
         image:
           'https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg',
       },
-      // {
-      //   name: 'Recoil',
-      //   image:
-      //     'https://seeklogo.com/images/R/recoil-js-logo-0FA612F129-seeklogo.com.png',
-      // },
       // {
       //   name: 'Next Js',
       //   image:
@@ -201,32 +196,23 @@ export const experiences = [
     id: 0,
     img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/GeeksforGeeks.svg/1024px-GeeksforGeeks.svg.png',
     role: 'Technical Content Writer',
-    company: 'GirlScript Summer of Code ',
+    company: 'GeeksForGeeks',
     date: 'July 2023 - Aug 2023',
-    desc:
-      'Successfully published three System Design Articles and reviewed 20+ different articles related to Technology, Design Facebook’s live update of comments on posts  Design a system that counts the number of clicks on YouTube videos, How would you design Amazon.com’s database — System Design',
+    desc: 'Authored and published more than three articles on System design GFG Topics, a prominent online learning platform, providing in-depth insights and knowledge on various topics related to System design Conducted thorough research, analyzed technical concepts, and crafted well- structured articles, ensuring accuracy and relevance of information to cater to the target audience of aspiring system designers --  |  Design Facebook’s live update of comments on posts  |  Design a system that counts the number of clicks on YouTube videos | How would you design Amazon.com’s database  ',
 
     skills: ['System Design', 'Content Writing', 'Webtechnology', 'Blockchain'],
     doc: '',
   },
-  // 
-  //   id: 1,
-  //   img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOgDoKlLUPz9E02PNChCPbENmcuKRqTuxbCCehyA49S5Y1XIaImidque7nqN_WlMSOSP0&usqp=CAU',
-  //   role: 'Frontend Developer Intern',
-  //   company: 'Hexode',
-  //   date: 'Apr 2021 - Oct 2021',
-  //   desc: 'I skillfully integrated various components of the mobile application with the backend, employing API integration for seamless connectivity. Thorough end-to-end testing was performed to ensure a polished and error-free mobile application. Additionally, I enhanced user experience by effectively implementing the React Navigation Library, enabling user-friendly and fluid navigation within the application..',
-  //   skills: [
-  //     'HTML',
-  //     'CSS',
-  //     'JavaScript',
-  //     'ReactJs',
-  //     'React Native',
-  //     'Postman',
-  //     'Android Studio',
-  //   ],
-  //   doc: '',
-  // },
+  {
+    id: 1,
+    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/GeeksforGeeks.svg/1024px-GeeksforGeeks.svg.png',
+    role: 'Frontend Developer',
+    company: 'VDOIT Technologies Ltd.',
+    date: 'Feb 2024 - Present',
+    desc: 'Successfully collaborated on frontend projects using React.js and Tailwind CSS, demonstrating strong skills in building responsive and visually appealing user interfaces. • Utilized React.JS to enhance frontend functionalities, showcasing adaptability and proficiency in integrating backend technologies into frontend development workflows. • Played a key role in API testing and integration processes, ensuring seamless communication between frontend and backend systems to deliver robust and efficient applications. ',
+    skills: ['React.js', 'Tailwind CSS', 'Material UI', 'React Libraries'],
+    doc: '',
+  },
 ];
 
 
@@ -239,16 +225,12 @@ export const projects = [
     description:
       'This is a web application that leverages the power of artificial intelligence to simplify the process of summarizing lengthy articles. The goal of enhancing reading efficiency and comprehension, this project provides users with concise and coherent summaries of complex texts',
 
-    image: 'https://i.ibb.co/3hQjfCZ/Screenshot-from-2023-09-07-22-09-26.png',
+    image: 'https://i.ibb.co/G36GQBC/article-suu.png',
     tags: [
       'React Js',
-      'MongoDb',
-      'Node Js',
-      'Express Js',
-      'Recoil',
-      'MUI',
-      'CSS',
-      'AWS',
+      'Redux',
+      'Open-AI',
+      'API'
     ],
     category: 'Frontend',
     github: 'https://github.com/anuragrathour132002/Articles-Summarize-with-OpenAI-GPT-4',
@@ -256,42 +238,38 @@ export const projects = [
   },
   {
     id: 1,
-    title: 'Real Time Code Editor',
-    date: 'Sep 2022 - Nov 2023',
-    description:
-      'Real Time Code Editor is a dynamic web application that seamlessly bridges interactions among multiple users within a single collaborative session. By meticulously executing code synchronization mechanisms, I enabled real-time collaboration among users, ensuring that changes made by each collaborator are immediately reflected for all. This was achieved through the strategic implementation of the socket.io library, which facilitated real-time connectivity and efficient message broadcasting, thus fostering a highly interactive and collaborative virtual environment.',
-    url: 'https://summarizearticleswithopenaigpt.netlify.app/',
-    image: 'https://i.ibb.co/N6xM111/Screenshot-from-2023-09-07-22-08-46.png',
-    tags: ['React Js', 'MongoDb', 'Node Js', 'Express Js', 'CodeMirror', 'AWS'],
+    title: 'E-commerce website',
+    date: 'Nov 2023 - Jan 2024',
+    description: 'A dynamic full-stack e-commerce platform designed to streamline online shopping experiences for users. Users can register, log in securely through JWT authentication, and enjoy a smooth shopping experience with an intuitive cart system. Admin functionality includes effortless product management and seamless integration of secure card payment processing. Secure card payment processing has been integrated, guaranteeing a safe and reliable transaction experience for users. For state management, used Redux that stores dynamic data updates of various components',
+    image: 'https://i.ibb.co/MMxFLg4/e-commerce.png',
+    tags: ['React Js', 'MongoDb', 'Node Js', 'Express Js', 'Redux', 'Redux Dev-Tool', 'JWT Auth', 'REST Ful API'],
     category: 'Full Stack',
-    github: 'https://github.com/junaid-arif-24/Real-time-code-sync-editor.git',
-    webapp: 'https://codeeditor.millionaireupstart.com/',
+    github: 'https://github.com/anuragrathour132002/E-commerce-',
+    webapp: '',
   },
   {
     id: 2,
-    title: 'MyOnlineMeal',
-    date: 'Jan 2023 - Feb 2023',
+    title: 'Real-Time Chat Application',
+    date: 'June 2023 - Aug 2023',
     description:
-      'MyOnlineMeal stands as an inventive online food delivery platform brought to life through the synergy of ReactJS and JavaScript. By meticulously crafting intuitive user interfaces and incorporating dynamic features, I significantly heightened user engagement and satisfaction. Leveraging the power of ReactJS components and libraries, I efficiently managed and presented food menus, while also streamlining the intricacies of order processing. The result is a seamless and delightful dining experience for users, exemplifying the potential of innovative technology in the culinary landscape.',
-    url: 'https://summarizearticleswithopenaigpt.netlify.app/',
-    image: 'https://i.ibb.co/882gcQb/Screenshot-from-2023-09-07-22-14-12.png',
-    tags: ['React', 'JavaScript', 'CSS', 'AWS'],
-    category: 'Frontend',
-    github: 'https://github.com/junaid-arif-24/MyOnlineMeal.git',
-    webapp: 'https://my-online-meal-24.netlify.app/',
+      'A platform where users can send and receive messages in real- time Users should be able to create chat rooms, join existing ones, and exchange messages with other users in the same room. The backend services will be hosted on Firebase, and users will authenticate with their email accounts',
+    image: 'https://i.ibb.co/71tdN3G/chat-app.png',
+    tags: ['React', 'Node.js', 'Socket.io', 'Firebase-Auth', 'Firebase-database', 'Email-Auth'],
+    category: 'Full Stack',
+    github: 'https://github.com/anuragrathour132002/Chat-app-',
+    webapp: 'https://sastachatbyanurag.netlify.app/',
   },
   {
     id: 3,
-    title: 'TodoApp',
+    title: 'Todo App',
     date: 'Jun 2023 - July 2023',
     description:
       'Todo is a user-friendly single-page application developed to streamline task management using the React Js. By seamlessly integrating this technology, I designed a cohesive platform that allows users to efficiently organize, update, and monitor their tasks.',
-    url: 'https://summarizearticleswithopenaigpt.netlify.app/',
-    image: 'https://i.ibb.co/SNK6dyY/Screenshot-from-2023-09-07-22-10-21.png',
-    tags: ['React Js', 'JavaScript', 'CSS', 'Netlify'],
-    category: 'Frontend',
-    github: 'https://github.com/junaid-arif-24/TodoApp.git',
-    webapp: 'https://todo-app-junaid.netlify.app/',
+    image: 'https://i.ibb.co/WKwRnb4/todo.png',
+    tags: ['React Js', 'Node.js', 'Express.js', 'MongoDB', 'Redux'],
+    category: 'Full Stack',
+    github: 'https://github.com/anuragrathour132002/Todo-list',
+    webapp: '',
   },
   {
     id: 4,
@@ -299,8 +277,7 @@ export const projects = [
     date: 'Apr 2023 - May 2023',
     description:
       'Designed and developed a fully responsive web application that serves as a dynamic representation of my professional experience and skills. Incorporated a user-friendly contact form utilizing the getForm API to facilitate seamless communication. The application is built on the foundation of React.js, enriched with Styled Components for aesthetics, and integrated with the getForm library for effective form management. The final product is deployed and hosted on Netlify, ensuring accessibility and a smooth user experience. This portfolio website demonstrates my ability to create engaging digital platforms that effectively communicate my expertise and engage with visitors.',
-    url: 'https://summarizearticleswithopenaigpt.netlify.app/',
-    image: 'https://i.ibb.co/XJkRPZK/Screenshot-from-2023-09-07-22-15-48.png',
+    image: 'https://i.ibb.co/wJx3WNZ/portfolio.png',
     tags: [
       'React',
       'JavaScript',
@@ -309,8 +286,19 @@ export const projects = [
       'Netlify',
     ],
     category: 'Frontend',
-    github: '',
+    github: 'https://github.com/anuragrathour132002/Portfolio-',
     webapp: '',
+  },
+  {
+    id: 5,
+    title: 'News Mint',
+    date: 'Apr 2023 - May 2023',
+    description: 'News Mint is a web application that provides users with the latest news from around the world. The app utilizes the NewsAPI to gather news articles. key features of News Mint are its advanced filtering options and infinite scrolling functionality, which enables users to seamlessly browse through a virtually endless stream of news articles.',
+    image: 'https://i.ibb.co/rt74vy5/news-mint.png',
+    tags: ['React', 'News API', 'JavaScript'],
+    category: 'Frontend',
+    github: 'https://github.com/anuragrathour132002/News-Mint',
+    webapp: 'https://news-mint.netlify.app/',
   },
 ];
 
