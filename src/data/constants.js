@@ -4,7 +4,7 @@ export const Bio = {
   description:
     'I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.',
   github: 'https://github.com/anuragrathour132002',
-  resume: 'https://drive.google.com/file/d/12pM1mRIaFnHK2MsUdWdG6fgjj6q90iHV/view?usp=sharing',
+  resume: 'https://drive.google.com/file/d/1J1FYkP2beNX3JOp3tjYPGo2FxqcvtoXS/view?usp=sharing',
   linkedin: 'https://www.linkedin.com/in/anurag-rathour07/',
   twitter: 'https://twitter.com/AnuragR46498191',
   insta: 'https://www.instagram.com/anuragrathour.in?igsh=MWZ3NHV6NG8zbDRkcg%3D%3D',
