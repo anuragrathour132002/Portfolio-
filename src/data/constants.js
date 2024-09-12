@@ -226,7 +226,6 @@ export const experiences = [
 ];
 
 
-
 export const projects = [
   {
     id: 0,
