@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { skills } from '../../data/constants'
+import { getSkillIconUrl } from '../../utils/skillIcons'
 
 const Container = styled.div`
 display: flex;
@@ -139,15 +140,24 @@ const Skills = () => {
         </Desc>
         <SkillsContainer>
           {skills.map((skill) => (
-            <Skill>
+            <Skill key={skill.title}>
               <SkillTitle>{skill.title}</SkillTitle>
               <SkillList>
-                {skill.skills.map((item) => (
-                  <SkillItem>
-                    <SkillImage src={item.image} />
-                    {item.name}
-                  </SkillItem>
-                ))}
+                {skill.skills.map((item, idx) => {
+                  // Prefer explicit iconUrl; ignore legacy `image` hotlinks (often break → identical fallback).
+                  const iconSrc = item.iconUrl || getSkillIconUrl(item.name)
+                  return (
+                    <SkillItem key={`${skill.title}-${item.name}-${idx}`}>
+                      <SkillImage
+                        src={iconSrc}
+                        alt=""
+                        loading="lazy"
+                        decoding="async"
+                      />
+                      {item.name}
+                    </SkillItem>
+                  )
+                })}
               </SkillList>
             </Skill>
           ))}

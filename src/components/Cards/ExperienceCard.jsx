@@ -337,7 +337,10 @@ const Skill = styled.div`
 `;
 
 const ExperienceCard = ({ experience }) => {
-    const descriptionPoints = experience.desc.split('.').filter(point => point.trim() !== '');
+    const descriptionPoints = experience.desc
+        .split(/\.\s+/)
+        .map((point) => point.trim())
+        .filter((point) => point.length > 0);
 
     return (
         <Card>
